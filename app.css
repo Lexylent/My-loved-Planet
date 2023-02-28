@@ -1,0 +1,95 @@
+/* Stilisiere das Dropdown-Menü */
+.dropdown {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#dropdown .world-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#dropdown ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+#dropdown ul li {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+#dropdown ul li:last-child {
+  border-bottom: none;
+}
+
+#dropdown ul li:hover {
+  background-color: #f1f1f1;
+}
+
+#map-wrapper {
+  position: relative;
+  height: 400px;
+}
+
+#dropdown {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  width: 200px;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 10px;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+#dropdown label,
+#dropdown select,
+#dropdown input,
+#dropdown button {
+  color: #fff;
+  background-color: #34495e;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#dropdown label {
+  display: block;
+  font-weight: bold;
+}
+
+#dropdown select {
+  width: 100%;
+}
+
+#dropdown input {
+  width: 100%;
+}
+
+#dropdown button {
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 220px;
+}
