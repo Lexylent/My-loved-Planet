@@ -1,2 +1,2 @@
 # My-loved-Planet
-Eine APP die es einem ermöglicht Orte an denen man gewesen ist auf der Karte zu vermerken, Bilder hinzuzufügen und zu Beschreibungen zu erstellen. 
+Eine APP die es einem ermöglicht Orte an denen man gewesen ist auf der Karte zu vermerken und in einer Liste anzeigen zu lassen. Die Orte werden zusätzlich mit einem Marker versehen und mit dazu passenden Koordinaten. Es wird HTML CSS und JAVASCRIPT verwendet um die Funktionalitäten umzusetzen und um das Frontend zu gestalten. Die Daten werden zunächst in einem Lokalen speicher abgelegt. Die anbindung einer Datenbank wird voraussichtlich noch erfolgen. 
